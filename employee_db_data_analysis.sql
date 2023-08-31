@@ -4,8 +4,6 @@ FROM employees AS e
 JOIN salaries as s
 ON e.emp_no = s.emp_no;
 
-SELECT * FROM salaries LIMIT 10;
-SELECT * FROM employees LIMIT 10;
 
 -- 2. List first name, last name, and hire date for employees who were hired in 1986
 SELECT first_name, last_name, hire_date
